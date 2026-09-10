@@ -13,6 +13,8 @@ body {
 .blue {
     background: #0d1b88;
     height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .green {
