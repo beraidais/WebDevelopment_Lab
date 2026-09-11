@@ -1,9 +1,6 @@
 body {
     margin: 20px;
-    /*
-    Challenge:
-    Set the font to Verdana.
-    */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .avatar {

@@ -9,6 +9,7 @@ body {
 .card {
     padding: 20px;
     display: flex;
+    justify-content: center;
     /*
     Challenge:
     Add horizontal space around the flex children.
