@@ -15,6 +15,10 @@ body {
     width: 100px;
 }
 
+h1 {
+    text-shadow: 0 0 4px black;
+}
+
 /*
 Challenge:
 Add a blurred border around the <h1> using
