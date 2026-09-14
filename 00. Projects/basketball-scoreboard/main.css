@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Digital-7;
+    src: url('./digital-7.ttf');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.scoreboard{
+    background-color: #160b42;
+    display: flex;
+    font-family: "Archivo Black", sans-serif;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.team{
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    /* border: 1px dotted yellow; */
+}
+
+.team-name{
+    margin: 0;
+    color: white;
+    font-size: 50px;
+}
+.score-container{
+    background-color: #000;
+    margin: 10px 0;
+
+}
+.score-value{
+    color: red;
+    font-size: 120px;
+    display: inline-block;
+    font-family: Digital-7;
+}
+
+.actions button {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    color: #FFF;
+    padding: 5px 15px;
+    font-family: Digital-7;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.actions button:hover {
+    background-color: #ffffff20;
+
+}

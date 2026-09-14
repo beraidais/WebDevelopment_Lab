@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="scoreboard">
+        <div class="team">
+            <h2 class="team-name">HOME</h2>
+            <div class="score-container">
+                <span id="home-score" class="score-value">12</span>
+            </div>
+            <div class="actions">
+                <button id="add1PointToHome" onclick="add1PointToHome()">+1</button>
+                <button id="add2PointsToHome" onclick="add2PointsToHome()">+2</button>
+                <button id="add3PointsToHome" onclick="add3PointsToHome()">+3</button>
+            </div>
+        </div>
+
+        <div class="team">
+            <h2 class="team-name">GUEST</h2>
+            <div class="score-container">
+                <span id="guest-score" class="score-value">5</span>
+            </div>
+            <div class="actions">
+                <button id="add1PointToGuest" onclick="add1PointToGuest()">+1</button>
+                <button id="add2PointsToGuest" onclick="add2PointsToGuest()">+2</button>
+                <button id="add3PointsToGuest" onclick="add3PointsToGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- 
+
+TO DO 
+- "New Game" Btn
+- What is the leader
+- Add more counters 
+    - Period
+    - Fouls
+    - Timer 
+- Change design 
+-->
